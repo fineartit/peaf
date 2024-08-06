@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "peaf"
+version = "1.0"
+description = "Practical Enterprise Architecture Framework"
+authors = ["fineartit <fineartit@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sphinx = "7.4.7"
+sphinx-autobuild = "^2024.4.16"
+sphinx-book-theme = "^1.1.3"
+myst-parser = "^3.0.1"
+sphinx-design = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
